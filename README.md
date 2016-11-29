@@ -2,7 +2,10 @@
 
 Navigation between related files.
 
-![screenshot](rails-nav.png)
+![screenshot](https://raw.githubusercontent.com/hjleochen/vscode-rails-nav/master/rails-nav.png)
+
+## Install
+ext install rails-nav
 
 ## Default keybinding
 

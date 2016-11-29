@@ -1,14 +1,22 @@
 {
     "name": "rails-nav",
     "displayName": "Rails Nav",
-    "description": "Quick open related file",
+    "description": "Ruby on Rails related file navigation",
     "version": "0.0.1",
-    "publisher": "LeoChen",
+    "publisher": "hjleochen",
     "engines": {
         "vscode": "^1.0.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hjleochen/vscode-rails-nav.git"
+    },
+    "homepage": "https://github.com/hjleochen/vscode-rails-nav",
     "categories": [
         "Other"
+    ],
+    "keywords": [
+        "Ruby on Rails"
     ],
     "activationEvents": [
         "onCommand:extension.rails-nav"
