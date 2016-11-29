@@ -1,7 +1,7 @@
 {
-    "name": "rails",
-    "displayName": "Rails",
-    "description": "",
+    "name": "rails-nav",
+    "displayName": "Rails Nav",
+    "description": "Quick open related file",
     "version": "0.0.1",
     "publisher": "LeoChen",
     "engines": {
@@ -11,19 +11,19 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.rails"
+        "onCommand:extension.rails-nav"
     ],
     "main": "./out/src/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.rails",
-                "title": "rails"
+                "command": "extension.rails-nav",
+                "title": "Rails Nav"
             }
         ],
         "keybindings": [
             {
-                "command": "extension.rails",
+                "command": "extension.rails-nav",
                 "key": "Alt+."
             }
         ]
@@ -36,5 +36,8 @@
     "devDependencies": {
         "typescript": "^1.8.5",
         "vscode": "^0.11.0"
+    },
+    "dependencies": {
+        "inflection": "^1.10.0"
     }
 }
